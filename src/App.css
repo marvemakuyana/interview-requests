@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+.searchIcon {
+  height: 30px;
+  width: 50px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  margin-left: -51px;
+  margin-top: 20px;
+}
+.searchIcon svg {
+  width: 16px;
+height: 16px;
+top: 3.5px;
+left:3.5px;
+}
+.colour1{
+  background-color: red;
+  
+}
