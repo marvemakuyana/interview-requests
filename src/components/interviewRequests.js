@@ -102,7 +102,6 @@ const InterviewRequests = () => {
                         <td className="px-6 py-4 whitespace-nowrap text-sm ">R{salaryFormat(data.salary)}</td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{data.sent_by}</td>
                         <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                            {/* <a href="#" className="text-indigo-600 hover:text-indigo-900">{}</a> */}
                             <button onClick={() => handleArchive(index)}
                                 className='font-bold inline-flex justify-center vertical-align: middle w-full px-3 py-4 text-sm' style={{ color: '#5EA5EE ' }}>
                                 {`${data.archived ? ' Unarchive' : ' Archive'}`}
