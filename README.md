@@ -24,4 +24,4 @@ Aligning icons was a bit difficult.  I should have aligned them properly.
 
 ### Do you have any feedback on this assignment? For example: What did you enjoy? What could be better? Which aspects were unclear?
 
-I think I can do better with regards to responsiveness. Overall I reaaly enjoyed doing this assessment because React is one of my favorite JavaScript libraries.  
+I think I can do better with regards to responsiveness. Overall I really enjoyed doing this assessment because React is one of my favorite JavaScript libraries.  
