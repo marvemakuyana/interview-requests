@@ -27,16 +27,15 @@ const InterviewRequests = () => {
         const date_time = moment(date).format('h:mma');
         const candidateDate = moment(todayDate).diff(moment(date), 'hours');
 
-        let dateDisplayed = formatDate;
 
         if (candidateDate < 24) {
-            dateDisplayed = date_time;
+            formatDate = date_time;
         }
         if (candidateDate > 24 && candidateDate < 47) {
-            dateDisplayed = 'Yesterday';
+            formatDate = 'Yesterday';
         }
 
-        return dateDisplayed;
+        return formatDate;
     };
 
     const filterNames = (value) => {
